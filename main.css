@@ -1,3 +1,6 @@
 .background {
   background-image: url("images/tpw_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* put in a linear gradient for div below header-image: background-image: radial-gradient(red, yellow); */
 }
