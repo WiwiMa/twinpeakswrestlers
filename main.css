@@ -3,5 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #c5c5c5;
+  font-family: 'Big Shoulders Display';
+  font-size: 12px;
   /* put in a linear gradient for div below header-image: background-image: radial-gradient(red, yellow); */
 }
