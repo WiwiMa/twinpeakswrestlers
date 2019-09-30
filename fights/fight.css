@@ -37,6 +37,10 @@ body {
 .navbarright {
   width: 400px;
 }
+
+.tpwlogo {
+  text-decoration: none;
+}
   
 .navlinkrow {
   display: flex;
@@ -78,7 +82,7 @@ a.navlink {
 
 .mainsection {
   width: 100%;
-  background-color: #ebebeb;
+  background-color: #acb6b9;
 }
 
 .maindiv {
