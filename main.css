@@ -14,7 +14,9 @@ body {
 .nav {
   background-color: #142429;
   position: fixed;
+  top: 0;
   width: 100%;
+  padding: 10px 0px;
   box-shadow: 0px 5px 5px rgba(20, 36, 41, 0.3);
 }
   
@@ -26,25 +28,23 @@ body {
 }
 
 .navbar {
-  padding: 10px 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-}
-  
-.navbarright {
-  width: 400px;
-}
-  
-.navlinkrow {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  padding: 0px 20px;
 }
 
+.tpwlogo {
+  text-decoration: none;
+  float: left;
+  display: inline-block;
+  font-size: 1.8em;
+  color: #fff;
+  vertical-align: middle;
+}
+
+
 .navlink {
+  display: inline-block;
+  margin-left: 20px;
+  float: right;
   width: 100px;
   position: relative;
   border: 2px solid #fff;
@@ -53,6 +53,7 @@ body {
   text-align: center;
   padding: 10px 0px;
   box-shadow: 0px 3px 5px rgba(20, 36, 41, 0.7);
+  color: #fff;
 }
 
 .navlink:hover {
@@ -64,14 +65,6 @@ a.navlink {
   font-weight: 650;
   text-decoration: none;
 }
-
-.tpwlogo {
-  font-size: 1.5em;
-  color: white;
-  padding: 0px 10px;
-  height: 100%;
-}
-
 
 
 /* Main Section */
