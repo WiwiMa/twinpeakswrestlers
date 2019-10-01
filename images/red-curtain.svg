@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3039" height="1862" viewBox="0 0 3039 1862">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.455" gradientTransform="translate(-0.328 1) rotate(-90) scale(1 1.657)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eb0000"/>
+      <stop offset="0" stop-color="#e30101"/>
+      <stop offset="0" stop-color="#d00202"/>
+      <stop offset="0" stop-color="#c00303"/>
+      <stop offset="1" stop-color="#430808"/>
+    </radialGradient>
+    <clipPath id="clip-Web_1920_4">
+      <rect width="3039" height="1862"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_4" data-name="Web 1920 – 4" clip-path="url(#clip-Web_1920_4)">
+    <rect width="3039" height="1862" fill="#fff"/>
+    <rect id="Rechteck_22" data-name="Rechteck 22" width="3039" height="3062" transform="translate(0 -345)" fill="url(#radial-gradient)"/>
+  </g>
+</svg>
