@@ -93,12 +93,10 @@ a.navlink {
 
 /* Main Section */
 
-
-
-maindiv {
-  background-image: url('https://wiwima.github.io/twinpeakswrestlers/images/red-curtain.svg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+.maindiv {
+  max-width: 800px;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 
@@ -131,11 +129,43 @@ h2 {
 /* Fight */
 
 .fightpres {
-  width: 600px;
-  height: 2000px;
-  background-color: #fff;
+  padding: 0px 20px;
+  margin-top: 50px;
 }
 
+.logladygrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 40px;
+  align-items: baseline;
+}
+
+.logladyimg {
+  grid-area: 1fr;
+  width: 100%;
+  height: 100%;
+}
+
+.logladydesc {
+  grid-area: 1fr;
+  height: 100%;
+  line-height: 1.5;
+}
+
+.logladydesc > h2 {
+  color: #142429;
+  font-weight: 700;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.buttonbid {
+  margin-top: 20px;
+  color: gree
+}
 
 
 /* NL registration */
