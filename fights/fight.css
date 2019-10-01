@@ -3,8 +3,20 @@
 body {
   font-family: Verdana;
   font-size: 12px;
-  color: #345f6d;
   margin: 0px;
+  height: 100%;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://wiwima.github.io/twinpeakswrestlers/images/red-curtain.svg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  position: fixed;
+  z-index: -50;
 }
 
 
@@ -14,6 +26,7 @@ body {
 .nav {
   background-color: #142429;
   position: fixed;
+  top: 0;
   width: 100%;
   box-shadow: 0px 5px 5px rgba(20, 36, 41, 0.3);
 }
@@ -80,13 +93,10 @@ a.navlink {
 
 /* Main Section */
 
-.mainsection {
-  width: 100%;
-  background-color: #acb6b9;
-}
 
-.maindiv {
-  background-image: url('images/tpw_background.svg');
+
+maindiv {
+  background-image: url('https://wiwima.github.io/twinpeakswrestlers/images/red-curtain.svg');
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -118,101 +128,21 @@ h2 {
 }
 
 
-/* Content */
+/* Fight */
 
-.fightdiv {
-  width: 100%;
-  margin-top: 50vh;
-  background-color: ;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.fightgrid {
-  padding: 0px 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 40px 20px;
-}
-
-.fightcell {
-  height: auto;
-  margin: 0px;
-}
-
-.fightimage {
-  height: 150px;
-}
-
-.fightimage>img {
-  max-width: 100%;
-  max-height: 100%;
-  vertical-align: bottom;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.fightdesc {
-  background-color: white;
-  padding: 20px 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 220px;
-  text-align: center;
-  border-radius: 5px;
-  box-shadow: 0px 5px 5px rgba(25, 45, 52, 0.3);
-}
-
-h3 {
-  margin: 0px;
-  color: #345f6d;
-  font-size: 1.5em;
-}
-
-.buttonact {
-  border: 2px solid #345f6d;
-  padding: 10px 0px;
-  width: 90px;
-  border-radius: 5px;
-  font-weight: 650;
-  background-color: #345f6d;
-  color: white;
-  box-shadow: 0px 3px 5px rgba(25, 45, 52, 0.4);
-  text-decoration: none;
-}
-
-.buttonact:hover {
-  border: 2px solid #345f6d;
-  transform: scale(1.1);
+.fightpres {
+  width: 600px;
+  height: 2000px;
   background-color: #fff;
-  color: #345f6d;
-  box-shadow: 0px 3px 5px rgba(25, 45, 52, 0.4);
 }
 
-.buttoninact {
-  padding: 10px 0px;
-  width: 120px;
-  border-radius: 5px;
-  font-weight: 650;
-  background-color: #707070;
-  color: white;
-}
-
-.fightcell.inact,
-.fightcell.inact > .fightdesc > h3 {
-  color: #707070;
-}
 
 
 /* NL registration */
 
 .nlbackground {
   margin: 50px 0px;
-  background-color: #345f6d;
+  background-color: #142429;
   color: #fff;
 }
 
@@ -245,7 +175,7 @@ h3 {
   border-radius: 5px;
   margin-right: 15px;
   width: 100%;
-  color: #345f6d;
+  color: #142429;
   font-weight: 550;
 }
 
@@ -259,7 +189,7 @@ h3 {
   width: 130px;
   border-radius: 5px;
   font-weight: 550;
-  background-color: #345f6d;
+  background-color: #142429;
   color: white;
   box-shadow: 0px 3px 5px rgba(25, 45, 52, 0.4);
 }
