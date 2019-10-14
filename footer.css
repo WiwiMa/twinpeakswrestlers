@@ -4,7 +4,7 @@ footer {
     height: 50px;
   }
   
-  .footerflex {
+.footerflex {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -13,9 +13,14 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding: 15px 0px;
-  }
+}
   
-  .footeritem {
+.footeritem {
     font-weight: 650;
     color: #fff;
-  }
+}
+
+@media (max-width: 569px)
+  .footeritem {
+    font-size: 0.8em;
+}
