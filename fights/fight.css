@@ -221,28 +221,6 @@ h2 {
   font-size: 0.75em;
 }
 
-footer {
-  background-color: #142429;
-  width: 100%;
-  height: 50px;
-}
-
-.footerflex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  max-width: 600px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px 0px;
-}
-
-.footeritem {
-  font-weight: 650;
-  color: #fff;
-}
-
 
 /* RESPONSIVE */
 
@@ -302,12 +280,4 @@ footer {
     margin-right: 0px;
   }
   
-  .footeritem {
-    font-size: 0.8em;
-  }
-  
-  .navlink.desk {
-    display:none;
-  }
-
 }
