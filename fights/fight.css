@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-@import "header.css";
-@import "footer.css";
+@import "../header.css";
+@import "../footer.css";
 
 body {
   font-family: Verdana;
